@@ -14,6 +14,7 @@ export default function MainCard() {
 				description={item.description}
 				title={item.title}
 				img={item.img}
+				map={item.map}
 			/>
 		);
 	});

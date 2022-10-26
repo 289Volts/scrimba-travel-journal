@@ -2,6 +2,7 @@ export default [
 	{
 		id: 1,
 		location: "Japan",
+		map: "https://goo.gl/maps/DmLg42s7FAR3RJZ39",
 		img: "https://source.unsplash.com/WLxQvbMyfas",
 		title: "Mount Fuji",
 		startDate: "12 Jan, 2021",
@@ -12,6 +13,8 @@ export default [
 	{
 		id: 2,
 		location: "Australia",
+		map: "https://goo.gl/maps/G8C5BXwUz9XHwLvB8",
+
 		img: "https://source.unsplash.com/JmuyB_LibRo",
 		title: "Sydney Opera House",
 		startDate: "27 May, 2021",
@@ -22,11 +25,12 @@ export default [
 	{
 		id: 3,
 		location: "Norway",
+		map: "https://goo.gl/maps/UG9ocrUkjCzQFTVU6",
 		img: "https://source.unsplash.com/3PeSjpLVtLg",
 		title: "Geirangerfjord",
 		startDate: "01 Oct, 2021",
 		endDate: "18 Nov, 2021",
 		description:
 			"The Geiranger Fjord is a fjord in the Sunnmøre region of Møre og Romsdal county, Norway. It is located entirely in the Stranda Municipality.",
-	}
+	},
 ];
