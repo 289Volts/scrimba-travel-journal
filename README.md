@@ -1,6 +1,6 @@
 # SECOND SOLO PROJECT FROM SCRIMBA - TRAVEL JOURNAL
 
-## Live Demo: https://travel-journal.vercel.app/
+## Live Demo: https://dummy-travel-journal.netlify.app
 
 ## REQUIREMENTS
 
