@@ -2,7 +2,6 @@ import "../src/main-card.css";
 import Card from "../components/card.jsx";
 import data from "../src/data.jsx";
 
-
 export default function MainCard() {
 	const details = data.map((item) => {
 		return (
@@ -20,12 +19,11 @@ export default function MainCard() {
 	return (
 		<div className="container">
 			<div className="header">
-				<img src="../src/assets/globe-.svg" alt="" />
+				<img src="./src/assets/globe-.svg" alt="" />
 				<p>my travel journal</p>
-            </div>
-            <div className="body">
-                {details}
-            </div>
+			</div>
+			<div className="body">{details}</div>
+			<p>Developed by Joshua '289Volts' Roland</p>
 		</div>
 	);
 }
