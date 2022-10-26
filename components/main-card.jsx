@@ -1,6 +1,7 @@
 import "../src/main-card.css";
 import Card from "../components/card.jsx";
 import data from "../src/data.jsx";
+import globe from "../src/assets/globe-.svg";
 
 export default function MainCard() {
 	const details = data.map((item) => {
@@ -19,11 +20,11 @@ export default function MainCard() {
 	return (
 		<div className="container">
 			<div className="header">
-				<img src="./src/assets/globe-.svg" alt="" />
+				<img src={globe} alt="" />
 				<p>my travel journal</p>
 			</div>
 			<div className="body">{details}</div>
-			<p>Developed by Joshua '289Volts' Roland</p>
+			<p className="footer">Developed by Joshua '289Volts' Roland</p>
 		</div>
 	);
 }
