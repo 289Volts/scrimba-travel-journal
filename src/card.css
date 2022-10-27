@@ -59,6 +59,10 @@ a {
 	translate: 0 -14%;
 }
 
+.country h3 {
+	text-transform: uppercase;
+}
+
 .country-title {
 	gap: 0.2rem;
 	font-weight: 500;
@@ -104,7 +108,6 @@ a {
 	.country-title {
 		font-size: 1rem;
 		flex: 0 0 auto;
-		/* width: 28%; */
 	}
 
 	.country a {
@@ -113,7 +116,7 @@ a {
 	}
 
 	.country img {
-		width: 26%;
+		width: 25%;
 		margin-left: -0.5rem;
 		translate: 0 -10%;
 	}
